@@ -802,7 +802,7 @@ body {
 }
 
 .subscription-form {
- display: flex;
+  display: flex;
 }
 
 .subscription-copy {
@@ -873,8 +873,6 @@ body {
   background-color: var(--secondary-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
-
 
 /* MODAL WINDOW */
 
@@ -963,6 +961,10 @@ body {
   margin-top: 10px;
 }
 
+.form-field:nth-child(4) {
+  margin-bottom: 20px;
+}
+
 .modal-icon {
   position: absolute;
   top: 32px;
@@ -1025,7 +1027,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  margin-top: 20px;
   margin-bottom: 30px;
 }
 
@@ -1038,8 +1039,8 @@ body {
 }
 
 .checkbox-input:checked + .icon-check {
-background-image: url(../img/checkbox-icon.svg);
-fill: var(--accent-color);
+  background-image: url(../img/checkbox-icon.svg);
+  fill: var(--accent-color);
 }
 
 .checkbox-label {
