@@ -949,8 +949,8 @@ body {
 }
 
 .form {
-  margin-left: 40px;
-  margin-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .form-field {
@@ -1003,7 +1003,6 @@ body {
 
 .form-textarea {
   height: 120px;
-  margin-bottom: 20px;
   padding-top: 12px;
   padding-left: 16px;
 
@@ -1026,6 +1025,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 
